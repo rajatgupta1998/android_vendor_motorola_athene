@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
-    libHevcSwDecoder
+    qcrilhook
 
 $(call inherit-product, vendor/motorola/msm8952-common/msm8952-common-vendor-blobs.mk)
