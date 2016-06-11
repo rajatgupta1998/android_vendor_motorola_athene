@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/msm8952-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/msm8952-common/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/msm8952-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/msm8952-common/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/msm8952-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/msm8952-common/proprietary/bin/stml0xx:system/bin/stml0xx \
@@ -77,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/msm8952-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/msm8952-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -85,6 +83,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/msm8952-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/motorola/msm8952-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -161,6 +161,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
