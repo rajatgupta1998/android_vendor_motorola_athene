@@ -13,4 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/motorola/msm8952-common/proprietary/,system)
+	$(call find-copy-subdir-files,*,vendor/motorola/msm8952-common/proprietary/bin,system/bin) \
+	$(call find-copy-subdir-files,*,vendor/motorola/msm8952-common/proprietary/etc,system/etc) \
+	$(call find-copy-subdir-files,*,vendor/motorola/msm8952-common/proprietary/lib,system/lib) \
+	$(call find-copy-subdir-files,*,vendor/motorola/msm8952-common/proprietary/vendor,system/vendor)

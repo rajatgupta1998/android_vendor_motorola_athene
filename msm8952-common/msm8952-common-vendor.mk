@@ -12,4 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+    TimeService \
+    qcrilmsgtunnel \
+    qcnvitems \
+    qcrilhook
+
 $(call inherit-product, vendor/motorola/msm8952-common/msm8952-common-vendor-blobs.mk)
