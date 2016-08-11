@@ -12,5 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-	 PRODUCT_COPY_FILES += \
-     $(call find-copy-subdir-files,*,vendor/motorola/athene/proprietary,system)
+PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,vendor/motorola/athene/proprietary/bin,system/bin) \
+	$(call find-copy-subdir-files,*,vendor/motorola/athene/proprietary/etc,system/etc) \
+	$(call find-copy-subdir-files,*,vendor/motorola/athene/proprietary/lib,system/lib) \
+	$(call find-copy-subdir-files,*,vendor/motorola/athene/proprietary/vendor,system/vendor)
