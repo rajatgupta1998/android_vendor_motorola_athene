@@ -214,6 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_common.so:system/vendor/lib/libchromatix_imx230_common.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx214_common_new_ircf.so:system/vendor/lib/libchromatix_imx214_common_new_ircf.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_240.so \
     vendor/motorola/athene/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
