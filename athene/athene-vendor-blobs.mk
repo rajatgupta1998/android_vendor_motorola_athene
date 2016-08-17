@@ -616,12 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/athene/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/athene/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/motorola/athene/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/motorola/athene/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/motorola/athene/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/athene/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/motorola/athene/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/athene/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/athene/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/athene/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
