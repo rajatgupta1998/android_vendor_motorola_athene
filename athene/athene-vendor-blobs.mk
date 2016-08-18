@@ -615,6 +615,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/msm8952/athene/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/msm8952/athene/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/motorola/msm8952/athene/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/motorola/msm8952/athene/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \	
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
