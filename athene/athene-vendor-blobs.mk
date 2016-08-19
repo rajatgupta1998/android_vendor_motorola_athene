@@ -925,4 +925,22 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-    vendor/motorola/msm8952/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so
+    vendor/motorola/msm8952/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
+    vendor/motorola/msm8952/athene/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar
+    vendor/motorola/msm8952/athene/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar
+    vendor/motorola/msm8952/athene/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar
+    vendor/motorola/msm8952/athene/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar
