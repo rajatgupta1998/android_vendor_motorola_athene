@@ -616,7 +616,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/msm8952/athene/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/msm8952/athene/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/msm8952/athene/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \	
+    vendor/motorola/msm8952/athene/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -741,7 +741,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8952/athene/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/msm8952/athene/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/motorola/msm8952/athene/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \	
+    vendor/motorola/msm8952/athene/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/msm8952/athene/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libril.so:system/lib/libril.so \
@@ -926,9 +926,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
-    vendor/motorola/msm8952/athene/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar
-    vendor/motorola/msm8952/athene/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar
-    vendor/motorola/msm8952/athene/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar
+    vendor/motorola/msm8952/athene/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
