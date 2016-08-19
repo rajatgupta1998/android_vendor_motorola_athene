@@ -740,6 +740,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/motorola/ecc_db/qcril_mot_ecc_common.db:system/etc/motorola/ecc_db/qcril_mot_ecc_common.db \
     vendor/motorola/msm8952/athene/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/msm8952/athene/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/motorola/msm8952/athene/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/motorola/msm8952/athene/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \	
     vendor/motorola/msm8952/athene/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libril.so:system/lib/libril.so \
