@@ -781,7 +781,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu.sh:system/bin/emmc_ffu.sh \
     vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu_15.sh:system/bin/emmc_ffu_15.sh \
     vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu_90.sh:system/bin/emmc_ffu_90.sh \
-    vendor/motorola/msm8952/athene/proprietary/bin/esdpll:system/bin/esdpll \
     vendor/motorola/msm8952/athene/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8952/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/msm8952/athene/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
