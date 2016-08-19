@@ -943,4 +943,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/motorola/msm8952/athene/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar
+    vendor/motorola/msm8952/athene/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
+    vendor/motorola/msm8952/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar
