@@ -760,6 +760,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/motorola/msm8952/athene/proprietary/bin/motosh:system/bin/motosh \
+    vendor/motorola/msm8952/athene/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/msm8952/athene/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/msm8952/athene/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
