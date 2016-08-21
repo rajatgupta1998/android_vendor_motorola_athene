@@ -777,7 +777,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/msm8952/athene/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/msm8952/athene/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/msm8952/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/msm8952/athene/proprietary/bin/dun-server:system/bin/dun-server \
