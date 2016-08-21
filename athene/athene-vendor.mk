@@ -18,6 +18,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
-    libHevcSwDecoder
+    libHevcSwDecoder \
+    libril \
+    libtime_genoff
 
 $(call inherit-product, vendor/motorola/msm8952/athene/athene-vendor-blobs.mk)
