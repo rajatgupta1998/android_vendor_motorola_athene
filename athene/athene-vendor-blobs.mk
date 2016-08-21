@@ -768,6 +768,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/msm8952/athene/proprietary/vendor/bin/tcmd:system/vendor/bin/tcmd \
+    vendor/motorola/msm8952/athene/proprietary/vendor/bin/tcmd-helper:system/vendor/bin/tcmd-helper \
     vendor/motorola/msm8952/athene/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
