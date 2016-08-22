@@ -607,6 +607,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/motorola/msm8952/athene/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/msm8952/athene/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
     vendor/motorola/msm8952/athene/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/msm8952/athene/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
