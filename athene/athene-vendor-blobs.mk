@@ -685,12 +685,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_15_RC14MB.fw:system/etc/firmware/emmc_ffu_15_RC14MB.fw \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_15_RC1BMB.fw:system/etc/firmware/emmc_ffu_15_RC1BMB.fw \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_15_RE1BMB.fw:system/etc/firmware/emmc_ffu_15_RE1BMB.fw \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:system/etc/firmware/emmc_ffu_15_RX14MB.fw \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_15_RX1BMB.fw:system/etc/firmware/emmc_ffu_15_RX1BMB.fw \
-    vendor/motorola/msm8952/athene/proprietary/etc/firmware/emmc_ffu_90_A4_HAG4a2.fw:system/etc/firmware/emmc_ffu_90_A4_HAG4a2.fw \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat:system/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat:system/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat \
@@ -781,15 +775,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/msm8952/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/msm8952/athene/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu:system/bin/emmc_ffu \
-    vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu.sh:system/bin/emmc_ffu.sh \
-    vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu_15.sh:system/bin/emmc_ffu_15.sh \
-    vendor/motorola/msm8952/athene/proprietary/bin/emmc_ffu_90.sh:system/bin/emmc_ffu_90.sh \
     vendor/motorola/msm8952/athene/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8952/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/msm8952/athene/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/msm8952/athene/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
-    vendor/motorola/msm8952/athene/proprietary/bin/init.mmi.touch.sh:system/bin/init.mmi.touch.sh \
     vendor/motorola/msm8952/athene/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/msm8952/athene/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/msm8952/athene/proprietary/bin/port-bridge:system/bin/port-bridge \
