@@ -20,6 +20,11 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     libHevcSwDecoder \
     libril \
-    libtime_genoff
+    libtime_genoff \
+    CNEService \
+    com.qualcomm.location \
+    ims \
+    imscmlibrary \
+    imssettings
 
 $(call inherit-product, vendor/motorola/msm8952/athene/athene-vendor-blobs.mk)
