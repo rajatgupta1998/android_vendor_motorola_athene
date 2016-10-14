@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     ims \
-    imscmlibrary \
-    imssettings
+    imscmlibrary
 
 $(call inherit-product, vendor/motorola/msm8952/athene/athene-vendor-blobs.mk)
