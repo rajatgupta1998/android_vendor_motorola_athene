@@ -22,8 +22,6 @@ PRODUCT_PACKAGES += \
     libril \
     libtime_genoff \
     CNEService \
-    com.qualcomm.location \
-    ims \
-    imscmlibrary
+    com.qualcomm.location
 
 $(call inherit-product, vendor/motorola/msm8952/athene/athene-vendor-blobs.mk)

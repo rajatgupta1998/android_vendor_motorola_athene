@@ -14,6 +14,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/msm8952/athene/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/motorola/msm8952/athene/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/motorola/msm8952/athene/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/msm8952/athene/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/motorola/msm8952/athene/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -594,7 +598,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/msm8952/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/msm8952/athene/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/motorola/msm8952/athene/proprietary/cendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -934,4 +949,42 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libDevHealth.so:system/vendor/lib/libDevHealth.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libdme_main.so:system/vendor/lib/libdme_main.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libmmcamera_isp_abcc44.so:system/vendor/lib/libmmcamera_isp_abcc44.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imssjni.so:system/vendor/lib/lib-imssjni.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libSecureExtAuthJNI.so:system/vendor/lib/libSecureExtAuthJNI.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libsensorhubservice_jni.so:system/vendor/lib/libsensorhubservice_jni.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/motorola/msm8952/athene/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so
