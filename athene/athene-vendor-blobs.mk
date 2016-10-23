@@ -609,7 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/msm8952/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/msm8952/athene/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
-    vendor/motorola/msm8952/athene/proprietary/cendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -975,7 +974,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-imssjni.so:system/vendor/lib/lib-imssjni.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/motorola/msm8952/athene/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
