@@ -937,7 +937,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952/athene/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/qmapbridge.jar:system/framework/qmapbridge.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
-    vendor/motorola/msm8952/athene/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/motorola/msm8952/athene/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
