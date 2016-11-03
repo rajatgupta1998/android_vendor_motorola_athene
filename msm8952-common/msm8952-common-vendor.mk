@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/msm8952-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/msm8952-common/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/msm8952-common/proprietary/bin/esdpll:system/bin/esdpll \
     vendor/motorola/msm8952-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/msm8952-common/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/msm8952-common/proprietary/bin/ftmipcd:system/bin/ftmipcd \
@@ -147,13 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
     vendor/motorola/msm8952-common/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
     vendor/motorola/msm8952-common/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
     vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
-    vendor/motorola/msm8952-common/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/msm8952-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/msm8952-common/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/msm8952-common/proprietary/etc/motorola/ecc_db/qcril_mot_ecc_common.db:system/etc/motorola/ecc_db/qcril_mot_ecc_common.db \
@@ -266,14 +259,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/motorola/msm8952-common/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
-    vendor/motorola/msm8952-common/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/seemp_healthd:system/vendor/bin/seemp_healthd \
-    vendor/motorola/msm8952-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/msm8952-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
