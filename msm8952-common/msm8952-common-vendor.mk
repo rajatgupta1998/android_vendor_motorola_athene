@@ -175,12 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/motorola/msm8952-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/motorola/msm8952-common/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
