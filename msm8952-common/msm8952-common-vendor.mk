@@ -177,7 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/motorola/msm8952-common/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
-    vendor/motorola/msm8952-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/msm8952-common/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/motorola/msm8952-common/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -201,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/msm8952-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/msm8952-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/msm8952-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/msm8952-common/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/msm8952-common/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/msm8952-common/proprietary/lib/libminui.so:system/lib/libminui.so \
@@ -758,10 +756,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/motorola/msm8952-common/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/motorola/msm8952-common/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
