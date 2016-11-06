@@ -1015,6 +1015,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService \
     qcrilmsgtunnel \
+    ims \
+    imssettings \
     imscmlibrary \
     qcnvitems \
     qcrilhook
