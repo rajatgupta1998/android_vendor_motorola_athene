@@ -224,6 +224,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/athene/proprietary/lib/libnetfilter_conntrack.so:system/lib/libnetfilter_conntrack.so \
     vendor/motorola/athene/proprietary/lib/libnfnetlink.so:system/lib/libnfnetlink.so \
+    vendor/motorola/athene/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/motorola/athene/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/motorola/athene/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/motorola/athene/proprietary/lib/libOmxSwVencHevc.so:system/lib/libOmxSwVencHevc.so \
     vendor/motorola/athene/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/motorola/athene/proprietary/lib/libpanelmode.so:system/lib/libpanelmode.so \
