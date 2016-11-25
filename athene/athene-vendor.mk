@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
-    vendor/motorola/athene/proprietary/bin/cnss-diag:system/bin/cnss-diag \
+    vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
