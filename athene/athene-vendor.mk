@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
+    vendor/motorola/athene/proprietary/bin/cnss-diag:system/bin/cnss-diag \
     vendor/motorola/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
@@ -163,6 +164,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/motorola/athene/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/motorola/athene/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/motorola/athene/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/motorola/athene/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/athene/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/motorola/athene/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/motorola/athene/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -288,6 +293,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/motorola/athene/proprietary/vendor/lib/libactuator_mot_lc898212xd.so:system/vendor/lib/libactuator_mot_lc898212xd.so \
     vendor/motorola/athene/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
@@ -1023,6 +1030,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     qcrilmsgtunnel \
     ims \
+    colorservice \
     imssettings \
     imscmlibrary \
     qcnvitems \
