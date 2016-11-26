@@ -153,7 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/motorola/ecc_db/qcril_mot_ecc_common.db:system/etc/motorola/ecc_db/qcril_mot_ecc_common.db \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.motorola.msimsettings.xml:system/etc/permissions/com.motorola.msimsettings.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xmlsystem/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/athene/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/athene/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
