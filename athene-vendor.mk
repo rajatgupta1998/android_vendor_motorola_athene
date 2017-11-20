@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
+    vendor/motorola/athene/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/athene/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/athene/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
@@ -175,6 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:system/vendor/lib/hw/fingerprint.vendor.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
+    vendor/motorola/athene/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/motorola/athene/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/athene/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/athene/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
@@ -259,6 +261,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/athene/proprietary/vendor/bin/seemp_healthd:system/vendor/bin/seemp_healthd \
     vendor/motorola/athene/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/motorola/athene/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
