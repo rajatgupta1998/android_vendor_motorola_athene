@@ -254,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/motorola/athene/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/athene/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/motorola/athene/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/athene/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/motorola/athene/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -1026,6 +1027,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/athene/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/motorola/athene/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/athene/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/athene/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -1123,7 +1126,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/libsdmutils.so:system/vendor/lib64/libsdmutils.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so
+    vendor/motorola/athene/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
+    vendor/motorola/athene/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
@@ -1143,5 +1147,4 @@ PRODUCT_PACKAGES += \
     DMService \
     SprintDM \
     DMConfigUpdateLight \
-    atfwd \
-    vendor.qti.hardware.fm@1.0
+    atfwd
